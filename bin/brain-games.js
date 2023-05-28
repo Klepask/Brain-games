@@ -1,9 +1,8 @@
 #!/usr/bin/env node
 import readlineSync from 'readline-sync'
-import { userName } from '/Users/evvva/desktop/hexlet/frontend-project-44/src/cli.js'
+import { welcome } from '/Users/evvva/desktop/hexlet/frontend-project-44/src/cli.js'
 
-console.log('Welcome to the Brain Games!')
-console.log(`Hello, ${userName}!`);
+
 console.log('Answer "yes" if the number is even, otherwise answer "no".')
 const randomNumber = Math.ceil(Math.random() * 100)
 const str = readlineSync.question('Question: ' + randomNumber + ' ') 
