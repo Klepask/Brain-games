@@ -11,7 +11,7 @@ const isEven = (num) => {
 };
 
 const getGameData = () => {
-  const number = getRandomNumber(1, 100);
+  const number = randomNumber(1, 100);
   const question = number;
   const correctAnswer = isEven(number) ? 'yes' : 'no';
   return [question, correctAnswer];
