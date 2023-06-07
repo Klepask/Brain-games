@@ -1,4 +1,5 @@
-### Hexlet tests and linter status:
-[![Actions Status](https://github.com/Klepask/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/Klepask/frontend-project-44/actions)
+install Brain games: $ git clone https://github.com/Klepask/frontend-project-44
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/088356ba62a358d448ba/maintainability)](https://codeclimate.com/github/Klepask/frontend-project-44/maintainability)
+«Игры разума»
+
+— набор из пяти консольных игр, построенных по принципу популярных мобильных приложений для прокачки мозга. Каждая игра задает вопросы, на которые нужно дать правильные ответы. После трех правильных ответов считается, что игра пройдена. Неправильные ответы завершают игру и предлагают пройти ее заново.
