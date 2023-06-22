@@ -6,12 +6,20 @@ install Brain games: $ git clone https://github.com/Klepask/frontend-project-44
 
 ### Определение четного числа. 
 
-[![asciicast](https://asciinema.org/a/rJ0NOzmtKOLXqkQZVnQBmXuBI.svg)](https://asciinema.org/a/rJ0NOzmtKOLXqkQZVnQBmXuBI)
+[![asciicast](https://asciinema.org/a/AfC1DMEwUPJv9JoWMyl3RBkjC.svg)](https://asciinema.org/a/AfC1DMEwUPJv9JoWMyl3RBkjC)
 
 ### Калькулятор. Арифметические выражения, которые необходимо вычислить.
 
+[![asciicast](https://asciinema.org/a/Nyar9h11e9QC9aGVPv1LRpj1f.svg)](https://asciinema.org/a/Nyar9h11e9QC9aGVPv1LRpj1f)
+
 ### Определение наибольшего общего делителя. 
+
+[![asciicast](https://asciinema.org/a/memWm6oTBMhRyvTKuNHOLVVRG.svg)](https://asciinema.org/a/memWm6oTBMhRyvTKuNHOLVVRG)
 
 ### Прогрессия. Поиск пропущенных чисел в последовательности чисел. 
 
+[![asciicast](https://asciinema.org/a/k8GNyZGgSKl5wbL1mP6RLDe7U.svg)](https://asciinema.org/a/k8GNyZGgSKl5wbL1mP6RLDe7U)
+
 ### Определение простого числа. 
+
+[![asciicast](https://asciinema.org/a/EWgiFz72UD7BWBz3C118DcPWQ.svg)](https://asciinema.org/a/EWgiFz72UD7BWBz3C118DcPWQ)
