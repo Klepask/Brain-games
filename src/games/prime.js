@@ -1,4 +1,4 @@
-import { randomNumber, engineGames } from '../index.js';
+import { randomNumber, engineGames } from '/Users/evvva/desktop/hexlet/frontend-project-44/src/index.js';
 
 const gameRules = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 

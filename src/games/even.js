@@ -1,4 +1,4 @@
-import { randomNumber, engineGames } from '../index.js';
+import { randomNumber, engineGames } from '/Users/evvva/desktop/hexlet/frontend-project-44/src/index.js';
 
 //правила
 const gameRules = 'Answer "yes" if the number is even, otherwise answer "no".';

@@ -1,23 +1,30 @@
-import { randomNumber, engineGames } from '../index.js';
+import { randomNumber, engineGames } from '/Users/evvva/desktop/hexlet/frontend-project-44/src/index.js';
 
-const gameRules = 'Answer "yes" if the number is even, otherwise answer "no".';
+const gameRules = 'What is the result of the expression?';
 
-const isEven = (num) => {
-  if (num % 2 === 0) {
-    return true;
+const calculate = (num1, num2, sign) => {
+  let result = '';
+  if (sign === '+') {
+    result = num1 + num2;
+  } else if (sign === '-') {
+    result = num1 - num2;
+  } else if (sign === '*') {
+    result = num1 * num2;
   }
-
-  return false;
+  return result;
 };
 
 const getGameData = () => {
-  const number = randomNumber(1, 100);
-  const question = number;
-  const correctAnswer = isEven(number) ? 'yes' : 'no';
+  const number1 = randomNumber(1, 100);
+  const number2 = randomNumber(1, 100);
+  const symbol = ['+', '-', '*'];
+  const randomSimbols = symbol[randomNumber(0, 2)];
+  const question = (`${number1} ${randomSimbols} ${number2}`);
+  const correctAnswer = String(calculate(number1, number2, randomSimbols));
   return [question, correctAnswer];
 };
 
-const evenGame = () => engineGames(gameRules, getGameData);
+const calcGame = () => engineGames(gameRules, getGameData);
 
-export default evenGame;
+export default calcGame;
   
