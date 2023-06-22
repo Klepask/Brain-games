@@ -6,4 +6,12 @@ install Brain games: $ git clone https://github.com/Klepask/frontend-project-44
 
 ### Определение четного числа. 
 
-https://asciinema.org/a/rJ0NOzmtKOLXqkQZVnQBmXuBI
+[![asciicast](https://asciinema.org/a/rJ0NOzmtKOLXqkQZVnQBmXuBI.svg)](https://asciinema.org/a/rJ0NOzmtKOLXqkQZVnQBmXuBI)
+
+### Калькулятор. Арифметические выражения, которые необходимо вычислить.
+
+### Определение наибольшего общего делителя. 
+
+### Прогрессия. Поиск пропущенных чисел в последовательности чисел. 
+
+### Определение простого числа. 
