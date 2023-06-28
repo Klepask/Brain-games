@@ -11,9 +11,6 @@
 
 install Brain games: $ git clone https://github.com/Klepask/frontend-project-44
 
-$ make install
-$ make lint
-$ make publish
 
 ### Игра: "Проверка на чётность"
 Определение четного числа. 
