@@ -9,6 +9,8 @@
 
 ### Установка
 
+Необходима установка node.js
+
 install Brain games: $ git clone https://github.com/Klepask/frontend-project-44
 
 
