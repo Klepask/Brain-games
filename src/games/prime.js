@@ -1,4 +1,4 @@
-import { randomNumber, engineGames } from '../src/index.js';
+import { randomNumber, engineGames } from '../index.js';
 
 const gameRules = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 

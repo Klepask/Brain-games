@@ -1,4 +1,4 @@
-import { randomNumber, engineGames } from '../src/index.js';
+import { randomNumber, engineGames } from '../index.js';
 
 //правила
 const gameRules = 'Answer "yes" if the number is even, otherwise answer "no".';
