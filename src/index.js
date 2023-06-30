@@ -10,7 +10,7 @@ const engineGames = (gameRules, getGameData) => {
   console.log(`Hello, ${userName}!`);
   console.log(gameRules);
 
-  for (let i = 0; i <= roundCounter; i += 1) { 
+  for (let i = 0; i <= roundCounter; i += 1) {
     const [question, correctAnswer] = getGameData();
     console.log(`Question: ${question}`);
     const playerAnswer = readlineSync.question('You answer: ');
@@ -23,7 +23,6 @@ const engineGames = (gameRules, getGameData) => {
     }
   }
   console.log(`Congratulations, ${userName}!`);
-
 };
 
 export default engineGames;
