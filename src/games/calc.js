@@ -27,4 +27,3 @@ const getGameData = () => {
 const calcGame = () => engineGames(gameRules, getGameData);
 
 export default calcGame;
-  
