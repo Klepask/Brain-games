@@ -11,40 +11,52 @@
 
 Необходима установка node.js
 
+```sh
 install Brain games: $ git clone https://github.com/Klepask/frontend-project-44
+```
 
 
 ### Игра: "Проверка на чётность"
 Определение четного числа. 
 
+```sh
 $ brain-even
+```
 
 [![asciicast](https://asciinema.org/a/AfC1DMEwUPJv9JoWMyl3RBkjC.svg)](https://asciinema.org/a/AfC1DMEwUPJv9JoWMyl3RBkjC)
 
 ### Игра: "Калькулятор"
 Арифметические выражения, которые необходимо вычислить.
 
+```sh
 $ brain-calc
+```
 
 [![asciicast](https://asciinema.org/a/Nyar9h11e9QC9aGVPv1LRpj1f.svg)](https://asciinema.org/a/Nyar9h11e9QC9aGVPv1LRpj1f)
 
 ### Игра "НОД"
 Определение наибольшего общего делителя. 
 
+```sh
 $ brain-gcd
+```
 
 [![asciicast](https://asciinema.org/a/memWm6oTBMhRyvTKuNHOLVVRG.svg)](https://asciinema.org/a/memWm6oTBMhRyvTKuNHOLVVRG)
 
 ### Игра "Арифметическая прогрессия"
 Прогрессия. Поиск пропущенных чисел в последовательности чисел. 
 
+```sh
 $ brain-progression
+```
 
 [![asciicast](https://asciinema.org/a/k8GNyZGgSKl5wbL1mP6RLDe7U.svg)](https://asciinema.org/a/k8GNyZGgSKl5wbL1mP6RLDe7U)
 
 ### Игра "Простое ли число?"
 Определение простого числа. 
 
+```sh
 $ brain-prime
+```
 
 [![asciicast](https://asciinema.org/a/EWgiFz72UD7BWBz3C118DcPWQ.svg)](https://asciinema.org/a/EWgiFz72UD7BWBz3C118DcPWQ)
