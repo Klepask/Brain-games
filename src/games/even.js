@@ -16,6 +16,6 @@ const getGameData = () => {
   return [question, correctAnswer];
 };
 
-const evenRun= () => engineGames(gameRules, getGameData);
+const evenRun = () => engineGames(gameRules, getGameData);
 
 export default evenRun;
