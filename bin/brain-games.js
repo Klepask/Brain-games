@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import greating from '../src/cli.js';
+import toGreat from '../src/cli.js';
 
-greating();
+toGreat();
