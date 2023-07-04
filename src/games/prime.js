@@ -24,6 +24,6 @@ const getGameData = () => {
   return [question, correctAnswer];
 };
 
-const primeGame = () => engineGames(gameRules, getGameData);
+const primeRun = () => engineGames(gameRules, getGameData);
 
-export default primeGame;
+export default primeRun;

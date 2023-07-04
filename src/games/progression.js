@@ -24,6 +24,6 @@ const getGameData = () => {
   return [question, correctAnswer];
 };
 
-const progressionGame = () => engineGames(gameRules, getGameData);
+const progressionRun = () => engineGames(gameRules, getGameData);
 
-export default progressionGame;
+export default progressionRun;
