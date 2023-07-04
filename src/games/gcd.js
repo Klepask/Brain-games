@@ -17,6 +17,6 @@ const getGameData = () => {
   return [question, correctAnswer];
 };
 
-const gsdGame = () => engineGames(gameRules, getGameData);
+const gcdRun = () => engineGames(gameRules, getGameData);
 
-export default gsdGame;
+export default gcdRun;
