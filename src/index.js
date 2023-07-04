@@ -1,6 +1,6 @@
 import readlineSync from 'readline-sync';
 
-const roundsCount = 2;
+const roundsCount = 3;
 
 const randomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 
@@ -10,7 +10,7 @@ const engineGames = (gameRules, getGameData) => {
   console.log(`Hello, ${userName}!`);
   console.log(gameRules);
 
-  for (let i = 0; i <= roundsCount; i += 1) {
+  for (let i = 0; i < roundsCount; i += 1) {
     const [question, correctAnswer] = getGameData();
     console.log(`Question: ${question}`);
     const playerAnswer = readlineSync.question('You answer: ');
