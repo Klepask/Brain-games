@@ -24,6 +24,6 @@ const getGameData = () => {
   return [question, correctAnswer];
 };
 
-const calcGame = () => engineGames(gameRules, getGameData);
+const calcRun = () => engineGames(gameRules, getGameData);
 
-export default calcGame;
+export default calcRun;
