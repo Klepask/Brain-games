@@ -1,4 +1,4 @@
-import { randomNumber, engineGames } from '../index.js';
+import { randomNumber, engineGame } from '../index.js';
 
 const gameRules = 'Answer "yes" if the number is even, otherwise answer "no".';
 
@@ -16,6 +16,6 @@ const getGameData = () => {
   return [question, correctAnswer];
 };
 
-const evenRun = () => engineGames(gameRules, getGameData);
+const evenRun = () => engineGame(gameRules, getGameData);
 
 export default evenRun;

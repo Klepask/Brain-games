@@ -1,4 +1,4 @@
-import { randomNumber, engineGames } from '../index.js';
+import { randomNumber, engineGame } from '../index.js';
 
 const gameRules = 'What number is missing in the progression?';
 
@@ -24,6 +24,6 @@ const getGameData = () => {
   return [question, correctAnswer];
 };
 
-const progressionRun = () => engineGames(gameRules, getGameData);
+const progressionRun = () => engineGame(gameRules, getGameData);
 
 export default progressionRun;
