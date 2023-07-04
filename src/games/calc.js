@@ -1,4 +1,4 @@
-import { randomNumber, engineGame } from '../index.js';
+import { randomNumber, run } from '../index.js';
 
 const gameRules = 'What is the result of the expression?';
 
@@ -24,6 +24,6 @@ const getGameData = () => {
   return [question, correctAnswer];
 };
 
-const calcRun = () => engineGame(gameRules, getGameData);
+const calcRun = () => run(gameRules, getGameData);
 
 export default calcRun;

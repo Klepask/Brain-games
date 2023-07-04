@@ -4,7 +4,7 @@ const roundsCount = 3;
 
 const randomNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 
-const engineGame = (gameRules, getGameData) => {
+const run = (gameRules, getGameData) => {
   console.log('Welcome to the Brain Games!');
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!`);
@@ -25,6 +25,6 @@ const engineGame = (gameRules, getGameData) => {
   console.log(`Congratulations, ${userName}!`);
 };
 
-export default engineGame;
+export default run;
 
-export { randomNumber, roundsCount, engineGame };
+export { randomNumber, roundsCount, run };

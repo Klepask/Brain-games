@@ -1,4 +1,4 @@
-import { randomNumber, engineGame } from '../index.js';
+import { randomNumber, run } from '../index.js';
 
 const gameRules = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
@@ -24,6 +24,6 @@ const getGameData = () => {
   return [question, correctAnswer];
 };
 
-const primeRun = () => engineGame(gameRules, getGameData);
+const primeRun = () => run(gameRules, getGameData);
 
 export default primeRun;
