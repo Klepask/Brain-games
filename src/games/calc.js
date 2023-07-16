@@ -4,12 +4,15 @@ import getRandomNumber from '../utils.js';
 const description = 'What is the result of the expression?';
 
 const calculate = (x, y, sign) => {
-  if (sign === '+') {
-    return x + y;
-  } else if (sign === '-') {
-    return  x - y;
-  } else if (sign === '*') {
-    return x * y;
+  switch (sign) {
+    case "+":
+      return x + y;
+    case "-":
+      return x - y;
+    case "*":
+      return x * y;
+    default:
+      throw new Error("Invalid sign");
   }
 };
 
