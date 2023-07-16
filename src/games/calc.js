@@ -7,7 +7,7 @@ const calculate = (x, y, sign) => {
   if (sign === '+') {
     return x + y;
   } else if (sign === '-') {
-    return x - y;
+    return  x - y;
   } else if (sign === '*') {
     return x * y;
   }
