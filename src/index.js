@@ -24,4 +24,4 @@ const run = (description, getGameData) => {
 
 export default run;
 
-export { roundsCount };
+export { roundsCount, run };
