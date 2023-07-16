@@ -1,7 +1,7 @@
-import { run } from '../index.js';
+import run from '../index.js';
 import { getRandomNumber } from '../utils.js';
 
-const gameRules = 'Find the greatest common divisor of given numbers.';
+const description = 'Find the greatest common divisor of given numbers.';
 
 const getGcd = (a, b) => {
   if (!b) {
@@ -18,6 +18,6 @@ const getGameData = () => {
   return [question, correctAnswer];
 };
 
-const gcdRun = () => run(gameRules, getGameData);
+const gcdRun = () => run(description, getGameData);
 
 export default gcdRun;

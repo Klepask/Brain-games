@@ -1,7 +1,7 @@
-import { run } from '../index.js';
+import run from '../index.js';
 import { getRandomNumber } from '../utils.js';
 
-const gameRules = 'What number is missing in the progression?';
+const description = 'What number is missing in the progression?';
 
 const arithmeticProgression = (start, difference, progressionLength) => {
   const arr = [];
@@ -25,6 +25,6 @@ const getGameData = () => {
   return [question, correctAnswer];
 };
 
-const progressionRun = () => run(gameRules, getGameData);
+const progressionRun = () => run(description, getGameData);
 
 export default progressionRun;

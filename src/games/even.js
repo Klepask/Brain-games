@@ -1,7 +1,7 @@
-import { run } from '../index.js';
+import run from '../index.js';
 import { getRandomNumber } from '../utils.js';
 
-const gameRules = 'Answer "yes" if the number is even, otherwise answer "no".';
+const description = 'Answer "yes" if the number is even, otherwise answer "no".';
 
 const isEven = (num) => {
   if (num % 2 === 0) {
@@ -17,6 +17,6 @@ const getGameData = () => {
   return [question, correctAnswer];
 };
 
-const evenRun = () => run(gameRules, getGameData);
+const evenRun = () => run(description, getGameData);
 
 export default evenRun;

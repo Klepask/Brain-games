@@ -1,7 +1,7 @@
-import { run } from '../index.js';
+import run from '../index.js';
 import { getRandomNumber } from '../utils.js';
 
-const gameRules = 'What is the result of the expression?';
+const description = 'What is the result of the expression?';
 
 const calculate = (num1, num2, sign) => {
   let result = '';
@@ -25,6 +25,6 @@ const getGameData = () => {
   return [question, correctAnswer];
 };
 
-const calcRun = () => run(gameRules, getGameData);
+const calcRun = () => run(description, getGameData);
 
 export default calcRun;
