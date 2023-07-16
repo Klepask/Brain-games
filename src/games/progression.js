@@ -1,5 +1,5 @@
-import run from '../index.js';
-import { getRandomNumber } from '../utils.js';
+import { run } from '../index.js';
+import getRandomNumber from '../utils.js';
 
 const description = 'What number is missing in the progression?';
 
