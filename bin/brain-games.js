@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import toGreat from '../src/cli.js';
+import greet from '../src/cli.js';
 
-toGreat();
+greet();
