@@ -1,4 +1,4 @@
-import run from '../index.js';
+import { run } from '../index.js';
 import { getRandomNumber } from '../utils.js';
 
 const gameRules = 'What is the result of the expression?';
