@@ -1,5 +1,5 @@
-import { run } from '../index.js';
-import getRandomNumber from '../utils.js';
+import run from '../index.js';
+import { getRandomNumber } from '../utils.js';
 
 const description = 'Answer "yes" if the number is even, otherwise answer "no".';
 

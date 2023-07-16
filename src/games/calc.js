@@ -1,4 +1,4 @@
-import { run } from '../index.js';
+import run from '../index.js';
 import { getRandomNumber, arrayChoice } from '../utils.js';
 
 const description = 'What is the result of the expression?';
