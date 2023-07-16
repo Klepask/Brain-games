@@ -5,14 +5,14 @@ const description = 'What is the result of the expression?';
 
 const calculate = (x, y, sign) => {
   switch (sign) {
-    case "+":
+    case '+':
       return x + y;
-    case "-":
+    case '-':
       return x - y;
-    case "*":
+    case '*':
       return x * y;
     default:
-      throw new Error("Invalid sign");
+      throw new Error('Invalid sign');
   }
 };
 
