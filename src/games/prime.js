@@ -3,10 +3,10 @@ import { getRandomNumber } from '../utils.js';
 
 const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
-const isPrime = (num) => {
+const isPrime = (number) => {
   const arr = [];
-  for (let i = 1; i <= num; i += 1) {
-    if (num % i === 0) {
+  for (let i = 1; i <= number; i += 1) {
+    if (number % i === 0) {
       arr.push(i);
     }
   }
@@ -14,7 +14,6 @@ const isPrime = (num) => {
   if (arr.length === 2) {
     return true;
   }
-
   return false;
 };
 
@@ -25,6 +24,6 @@ const getGameData = () => {
   return [question, correctAnswer];
 };
 
-const primeRun = () => run(description, getGameData);
+const runPrime = () => run(description, getGameData);
 
-export default primeRun;
+export default runPrime;
