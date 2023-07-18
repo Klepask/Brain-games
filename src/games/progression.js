@@ -1,5 +1,5 @@
 import run from '../index.js';
-import { getRandomNumber } from '../utils.js';
+import { getRandomNumber, arrayChoice } from '../utils.js';
 
 const description = 'What number is missing in the progression?';
 
@@ -18,7 +18,7 @@ const getGameData = () => {
   const difference = getRandomNumber(1, 10);
   const progressionLength = getRandomNumber(5, 20);
   const progression = arithmeticProgression(start, difference, progressionLength);
-  const hiddenSymbol = getRandomNumber(0, progression.length - 1);
+  const hiddenSymbol = arrayChoice(progression);
   const correctAnswer = `${progression[hiddenSymbol]}`;
   progression[hiddenSymbol] = '..';
   const question = progression.join(' ');
