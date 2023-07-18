@@ -6,8 +6,8 @@ const description = 'What number is missing in the progression?';
 const arithmeticProgression = (start, difference, progressionLength) => {
   const arr = [];
   for (let i = 0; i <= progressionLength; i += 1) {
-    const newNum = start + i * difference;
-    arr.push(newNum);
+    const newNumber = start + i * difference;
+    arr.push(newNumber);
   }
 
   return arr;
@@ -18,13 +18,13 @@ const getGameData = () => {
   const difference = getRandomNumber(1, 10);
   const progressionLength = getRandomNumber(5, 20);
   const progression = arithmeticProgression(start, difference, progressionLength);
-  const hiddenSimbol = getRandomNumber(0, progression.length - 1);
-  const correctAnswer = `${progression[hiddenSimbol]}`;
-  progression[hiddenSimbol] = '..';
+  const hiddenSymbol = getRandomNumber(0, progression.length - 1);
+  const correctAnswer = `${progression[hiddenSymbol]}`;
+  progression[hiddenSymbol] = '..';
   const question = progression.join(' ');
   return [question, correctAnswer];
 };
 
-const progressionRun = () => run(description, getGameData);
+const runProgression = () => run(description, getGameData);
 
-export default progressionRun;
+export default runProgression;
