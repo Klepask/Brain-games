@@ -3,8 +3,8 @@ import { getRandomNumber } from '../utils.js';
 
 const description = 'Answer "yes" if the number is even, otherwise answer "no".';
 
-const isEven = (num) => {
-  if (num % 2 === 0) {
+const isEven = (number) => {
+  if (number % 2 === 0) {
     return true;
   }
   return false;
@@ -17,6 +17,6 @@ const getGameData = () => {
   return [question, correctAnswer];
 };
 
-const evenRun = () => run(description, getGameData);
+const runEven = () => run(description, getGameData);
 
-export default evenRun;
+export default runEven;
