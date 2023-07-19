@@ -18,7 +18,7 @@ const getGameData = () => {
   const difference = getRandomNumber(1, 10);
   const progressionLength = getRandomNumber(5, 20);
   const progression = arithmeticProgression(start, difference, progressionLength);
-  const hiddenSymbol = getRandomIndex(progression);
+  const hiddenSymbol = getRandomIndex(progression.length);
   const correctAnswer = `${progression[hiddenSymbol]}`;
   progression[hiddenSymbol] = '..';
   const question = progression.join(' ');
