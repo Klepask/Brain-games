@@ -4,17 +4,15 @@ import { getRandomNumber } from '../utils.js';
 const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const isPrime = (number) => {
-  const arr = [];
-  for (let i = 1; i <= number; i += 1) {
+  if (number <= 1) return false;
+  
+  for (let i = 2; i <= Math.sqrt(number); i++) {
     if (number % i === 0) {
-      arr.push(i);
+      return false; 
     }
   }
 
-  if (arr.length === 2) {
-    return true;
-  }
-  return false;
+  return true;
 };
 
 const getGameData = () => {
