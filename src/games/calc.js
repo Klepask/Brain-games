@@ -13,7 +13,7 @@ const calculate = (x, y, sign) => {
     case '*':
       return x * y;
     default:
-      throw new Error('Invalid sign: ' + sign);
+      throw new Error(`Invalid sign: ${sign}`);
   }
 };
 
