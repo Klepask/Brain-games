@@ -20,7 +20,7 @@ const calculate = (x, y, sign) => {
 const getGameData = () => {
   const number1 = getRandomNumber(1, 100);
   const number2 = getRandomNumber(1, 100);
-  const signIndex = getRandomIndex(signs.length);
+  const signIndex = getRandomIndex(signs);
   const sign = signs[signIndex];
   const question = `${number1} ${sign} ${number2}`;
   const correctAnswer = String(calculate(number1, number2, sign));
