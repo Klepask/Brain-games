@@ -1,5 +1,5 @@
 import run from '../index.js';
-import { getRandomNumber, arrayChoice } from '../utils.js';
+import { getRandomNumber, getRandomIndex } from '../utils.js';
 
 const description = 'What is the result of the expression?';
 const signs = ['+', '-', '*'];
@@ -20,9 +20,10 @@ const calculate = (x, y, sign) => {
 const getGameData = () => {
   const number1 = getRandomNumber(1, 100);
   const number2 = getRandomNumber(1, 100);
-  const randomSign = arrayChoice(signs);
-  const question = `${number1} ${randomSign} ${number2}`;
-  const correctAnswer = String(calculate(number1, number2, randomSign));
+  const signIndex = getRandomIndex(signs);
+  const sign = signs[signIndex];
+  const question = `${number1} ${sign} ${number2}`;
+  const correctAnswer = String(calculate(number1, number2, sign));
   return [question, correctAnswer];
 };
 
