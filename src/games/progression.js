@@ -3,9 +3,9 @@ import { getRandomNumber, getRandomIndex } from '../utils.js';
 
 const description = 'What number is missing in the progression?';
 
-const getProgression = (start, difference, progressionLength) => {
+const getProgression = (start, difference, length) => {
   const arr = [];
-  for (let i = 0; i <= progressionLength; i += 1) {
+  for (let i = 0; i <= length; i += 1) {
     const newNumber = start + i * difference;
     arr.push(newNumber);
   }
@@ -16,8 +16,8 @@ const getProgression = (start, difference, progressionLength) => {
 const getGameData = () => {
   const start = getRandomNumber(1, 100);
   const difference = getRandomNumber(1, 10);
-  const progressionLength = getRandomNumber(5, 20);
-  const progression = getProgression(start, difference, progressionLength);
+  const length = getRandomNumber(5, 20);
+  const progression = getProgression(start, difference, length);
   const hiddenSymbol = getRandomIndex(progression.length);
   const correctAnswer = `${progression[hiddenSymbol]}`;
   progression[hiddenSymbol] = '..';
