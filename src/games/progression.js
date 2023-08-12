@@ -4,13 +4,13 @@ import { getRandomNumber, getRandomIndex } from '../utils.js';
 const description = 'What number is missing in the progression?';
 
 const getProgression = (start, difference, length) => {
-  const progressionNumbers = [];
+  const progression = [];
   for (let i = 0; i <= length; i += 1) {
     const number = start + i * difference;
-    progressionNumbers.push(number);
+    progression.push(number);
   }
 
-  return progressionNumbers;
+  return progression;
 };
 
 const getGameData = () => {
