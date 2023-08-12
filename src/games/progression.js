@@ -19,7 +19,7 @@ const getGameData = () => {
   const length = getRandomNumber(5, 20);
   const progression = getProgression(start, difference, length);
   const hiddenIndex = getRandomIndex(progression.length);
-  const correctAnswer = `${progression[hiddenIndex]}`;
+  const correctAnswer = `${progression[hiddenIndex]}`.toString();
   progression[hiddenIndex] = '..';
   const question = progression.join(' ');
   return [question, correctAnswer];
